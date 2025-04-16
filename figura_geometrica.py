@@ -14,6 +14,10 @@ class FiguraGeometrica(ABC):
         """
         Método abstracto para calcular el área de una figura.
         """
+    def verificar_entrada(self):
+        """
+        Método que verifica si la entrada de variables es correcta.
+        """
 
 
 class Rectangulo(FiguraGeometrica):
